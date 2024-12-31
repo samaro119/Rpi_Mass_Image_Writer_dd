@@ -1,9 +1,7 @@
 # Rpi_Mass_Image_Writer_dd
 Raspberry Pi 5 that writes to many USB drives in one go. Use the LCD Keypad buttons to select the stored disk image to copy as well as reboot the device. 
 
-Up and Down buttons are used to navigate the menu, Select button is used to confirm. When given a confirmation choice the Select button confirms the choice and any other button will cancel.
-
-Disk images are transferred to the Raspberry Pi via a Samba shared folder. The selected image is then written in to all the drives using the ```dcfldd``` command.
+Disk images are transferred to the Raspberry Pi via a Samba shared folder. The selected image is then written in to all the drives using the ```dd``` command.
 
 ## How to use?
 
