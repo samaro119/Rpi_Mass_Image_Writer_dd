@@ -10,7 +10,7 @@ from Adafruit_CharLCDPlate import Adafruit_CharLCDPlate
 
 COLUMNS = 16
 ROWS = 2
-imagePath = "images/"
+imagePath = "currentImages/"
 
 imageNames = []
 currentImageSelection = 0
